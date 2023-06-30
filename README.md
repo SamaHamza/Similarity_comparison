@@ -11,5 +11,5 @@
   <li><b><big>BERT<i>(Bidirectional Encoder Representations from Transformers)</i></big></b> is a  pre-trained language model that is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.</li>
 </ul>
 <h2 font_size = 10px;>Dataset:</h2> 
-
+<p> The daset has been collected using <i> web scraping</i></p>
 <em>Please note that the prompted words are words that exist inside the dataset.</em>
