@@ -7,13 +7,13 @@
   <li><b><big>TF_IDF<i>(term Frequency Inverse Frequency)</i></big></b> is a mathematicle calculation that finds the importance of each word in the document. </li>
  <b>Term Frequency (TF) : </b> It represents the frequency of a term within a document relative to the total number of terms in that document.
  <br/>Mathematically it can be represented as follows:<br/>
- <br/><b>TF</b> = (Number of times term t appears in a document)/(Number of terms in the document)<br/>
+<p style="color: #C0C0C0;"> <br/><b>TF</b> = (Number of times term t appears in a document)/(Number of terms in the document)<br/> </p>
  <br/> <b>Inverse document frequency(IDF):</b> It is a measure used in information retrieval and text mining to quantify the importance of a term in a collection 
   of documents.<br/>
   <br/> Mathematically it can be represented as follows:<br/>
- <br/><b>IDF</b> = log(N/n), where, N is the number of documents and n is the number of documents a term t has appeared in.<br/>
+ <p style="color: #C0C0C0;"><br/><b>IDF</b> = log(N/n), where, N is the number of documents and n is the number of documents a term t has appeared in.<br/></p>
  <br/><b>TF-IDF (Term Frequency-Inverse Document Frequency) : </b> TF-IDF (Term Frequency-Inverse Document Frequency) is a numerical representation that combines the local importance of a term within a document (TF) with its global significance in the collection (IDF).<br/>
-  <b>TF-IDF</b> = TF*IDF
+ <p style="color: #C0C0C0;"> <b>TF-IDF</b> = TF*IDF</p>
   
   <br/>
   <li><b><big>Word Embedding</i></big></b> is a technique used in natural language processing (NLP) to represent individual words as real-valued vectors in a predefined vector space.</li>
