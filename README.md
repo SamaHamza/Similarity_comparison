@@ -14,7 +14,7 @@
 <p> The daset has been collected using <i> Web scraping</i> </p>
 <p> First of all you need to extract the compressed file "Dataset!"</p>
         import zipfile as zf
-        files = zf.ZipFile("Lab2-resources-20221210.zip", 'r')
-        files.extractall("lab 2")
+        files = zf.ZipFile("Arabic_dataset.zip", 'r')
+        files.extractall("Arabic_dataset")
         files.close()
 <p>Please note that the prompted words are words that exist inside the dataset.</em></p><em>
