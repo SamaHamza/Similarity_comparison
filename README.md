@@ -13,7 +13,7 @@
   <br/> Mathematically it can be represented as follows:<br/>
  <br/><p style="color: #808080"><b>IDF</b> = log(N/n), where, N is the number of documents and n is the number of documents a term t has appeared in.</p><br/>
  <br/><b>TF-IDF (Term Frequency-Inverse Document Frequency) : </b> TF-IDF (Term Frequency-Inverse Document Frequency) is a numerical representation that combines the local importance of a term within a document (TF) with its global significance in the collection (IDF).<br/>
- <p style="color: #808080";><b>TF-IDF</b> = TF*IDF</p>
+ <p style="color: #808080";>TF-IDF = TF*IDF</p>
   
   <br/>
   <li><b><big>Word Embedding</i></big></b> is a technique used in natural language processing (NLP) to represent individual words as real-valued vectors in a predefined vector space.</li>
