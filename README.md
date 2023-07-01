@@ -37,7 +37,7 @@ files.close()</pre>
      &nbsp;&nbsp; python-math 
  <p align ="center">check the requirment.txt file.</p> 
 </li>
-<li>note: if your device is slow you can use <a <a href="https://colab.research.google.com/drive/1B6raOPDot8QU22jlQmfNjgNOuaFpxame?usp=sharing/edit">
+<li>note: if your device is slow you can use <a <a href="[https://colab.research.google.com/drive/1B6raOPDot8QU22jlQmfNjgNOuaFpxame?usp=sharing/edit](https://colab.research.google.com/drive/1LV9h--LiKA3lgzChXQiGgamyakaNhJFy?usp=sharing)">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a> to run the code on it. Also, activate the GPU via clicking on the runtime from the toolbar >>> change runtime type >>> Hardware accelerator >>>> GPU.</li> <br>
 <li> Now you're ready to run your code. It's provided with more than one type such as .ipynb extention which is compatible with jupyter notebook & .py extention which is compatible with python file.</li>
