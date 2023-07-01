@@ -25,18 +25,18 @@ files.extractall("Arabic_dataset")
 files.close()</pre>
 
 <li> Now you need to install the required libraries:<br>
-     &nbsp;&nbsp; torch <br>
+     &nbsp;&nbsp; torch  
      &nbsp;&nbsp; transformers <br>
      &nbsp;&nbsp; pandas <br>
      &nbsp;&nbsp; numpy <br> 
      &nbsp;&nbsp; scikit-learn <br> 
      &nbsp;&nbsp; regex <br> 
      &nbsp;&nbsp; strings <br> 
-     &nbsp;&nbsp; python-math <br> 
-  
- <p align ="center">check the requirment.txt file.</p> <br>
+     &nbsp;&nbsp; python-math 
+ <p align ="center">check the requirment.txt file.</p> 
 </li>
-note: if your device is slow you can use <a <a href="https://colab.research.google.com/drive/1B6raOPDot8QU22jlQmfNjgNOuaFpxame?usp=sharing/edit">
+<li>note: if your device is slow you can use <a <a href="https://colab.research.google.com/drive/1B6raOPDot8QU22jlQmfNjgNOuaFpxame?usp=sharing/edit">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a> to run the code on it. Also, activate the GPU via clicking on the runtime from the toolbar >>> change runtime type >>> Hardware accelerator >>>> GPU
+</a> to run the code on it. Also, activate the GPU via clicking on the runtime from the toolbar >>> change runtime type >>> Hardware accelerator >>>> GPU.</li> <br>
+<li> Now you're ready to run your code. It's provided with more than one type such as .ipynb extention which is compatible with jupyter notebook & .py extention which is compatible with python file.</li>
 </ul>
