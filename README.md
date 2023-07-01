@@ -13,8 +13,8 @@
 <h2 font_size = 10px;>Dataset:</h2> 
 <p> The daset has been collected using <i> Web scraping</i> </p>
 <p> First of all you need to extract the compressed file "Dataset!"</p>
-import zipfile as zf
-files = zf.ZipFile("Lab2-resources-20221210.zip", 'r')
-files.extractall("lab 2")
-files.close()
-<em>Please note that the prompted words are words that exist inside the dataset.</em>
+        import zipfile as zf
+        files = zf.ZipFile("Lab2-resources-20221210.zip", 'r')
+        files.extractall("lab 2")
+        files.close()
+<p>Please note that the prompted words are words that exist inside the dataset.</em></p><em>
