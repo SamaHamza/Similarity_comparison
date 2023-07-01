@@ -5,18 +5,20 @@
   <li><b><big>Cosine similarity</big></b> is a mathematical calculation that find the similarity between two words or sentences but in this code the similarity has been found between two words only that has been prompted by the user.</li>
   <br/>
   <li><b><big>TF_IDF<i>(term Frequency Inverse Frequency)</i></big></b> is a mathematicle calculation that finds the importance of each word in the document. </li>
- <b>Term Frequency (TF) : </b> It represents the frequency of a term within a document relative to the total number of terms in that document.
- <br/>Mathematically it can be represented as follows:<br/>
-<p style="color: #808080;"> <br/><b>TF</b> = (Number of times term t appears in a document)/(Number of terms in the document)<br/> </p>
- <br/> <b>Inverse document frequency(IDF):</b> It is a measure used in information retrieval and text mining to quantify the importance of a term in a collection 
-  of documents.<br/>
-  <br/> Mathematically it can be represented as follows:<br/>
- <br/><b>IDF</b> = log(N/n), where, N is the number of documents and n is the number of documents a term t has appeared in.<br/>
- <br/><b>TF-IDF (Term Frequency-Inverse Document Frequency) : </b> TF-IDF (Term Frequency-Inverse Document Frequency) is a numerical representation that combines 
-  the local importance of a term within a document (TF) with its global significance in the collection (IDF).<br/>
- <br/>TF-IDF = TF*IDF<br/>
+ <b>Term Frequency <i>(TF)</i>  :</b> It represents the frequency of a term within a document relative to the total number of terms in that document. <br/>
+ Mathematically it can be represented as follows:<br/>
+<pre> 
+ <i>&nbsp;&nbsp;<b>TF</b> = (Number of times term t appears in a document)/(Number of terms in the document)</i> </pre><br/>
+ <b>Inverse document frequency <i>(IDF)</i>:</b> It is a measure used in information retrieval and text mining to quantify the importance of a term in a collection of documents.<br/>
+Mathematically it can be represented as follows:<br/>
+ <pre>
+   <b >Inverse document frequency<i>(IDF)</i></b> = log(N/n)
+ <p >where N is the number of documents and n is the number of documents a term t has appeared in.</p></pre><br/>
+  <em>So as a conclusion:</em><br/>
+  <b> Term Frequency-Inverse Document Frequency</b> <i>(TF-IDF)</i>  is a numerical representation that combines 
+  the local importance of a term within a document <i>(TF)</i> with its global significance in the collection <i>(IDF)</i>.<br/>
+ <pre>  &nbsp;&nbsp;TF-IDF = TF*IDF</pre><br/>
   
-  <br/>
   <li><b><big>Word Embedding</i></big></b> is a technique used in natural language processing (NLP) to represent individual words as real-valued vectors in a predefined vector space.</li>
   <br/>
   <li><b><big>BERT<i>(Bidirectional Encoder Representations from Transformers)</i></big></b> is a  pre-trained language model that is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.</li>
@@ -24,10 +26,11 @@
 <p> &nbsp;&nbsp;Please note that the prompted words are words that exist inside the dataset.</em></p><em>
   
 <h2 font_size = 10px;>About the used dataset:</h2> 
-<p> Dataset is collection of Arabic articles that can be used in different Arabic <b>NLP tasks</b> . The articles were collected using <b>Python scripts</b> written specifically for <b><a href="https://mawdoo3.com/">mawdoo3</a></b> website.
+<ul>
+<li> Dataset is collection of Arabic articles that can be used in different Arabic <b>NLP tasks</b> . The articles were collected using <b>Python scripts</b> written specifically from <b><a href="https://mawdoo3.com/">mawdoo3</a></b> website.</li>
 
-datasets have two columns [Title, article] , contains a total number of 5000 articles. </p>
-
+<p>Mainly the dataset has two columns : <i>[Title, article]</i> that contains a total number of <b>5000</b> articles. </p>
+</ul>
 
 <h2 font_size = 10px;>Requirements:</h2> 
 <ul>
