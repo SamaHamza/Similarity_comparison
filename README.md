@@ -18,9 +18,10 @@ Mathematically it can be represented as follows:<br/>
   the local importance of a term within a document <i>(TF)</i> with its global significance in the collection <i>(IDF)</i>.<br/>
  <pre>  &nbsp;&nbsp;TF-IDF = TF*IDF</pre><br/>
   
-  <li><b><big>Word Embedding</i></big></b> is a technique used in natural language processing (NLP) to represent individual words as real-valued vectors in a predefined vector space.</li>
+  <li><b><big>Word Embedding</i></big></b> is a technique used in natural language processing (NLP) to represent individual words as real-valued vectors in a predefined vector space. So, it's a way that make word representation in a way that can have a meaning of each word but a low-dimentional one.</li>
   <br/>
-  <li><b><big>BERT<i>(Bidirectional Encoder Representations from Transformers)</i></big></b> is a  pre-trained language model that is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.</li>
+  <li><b><big>BERT<i>(Bidirectional Encoder Representations from Transformers)</i></big></b> is a  pre-trained language model <i> (transfer learning concept)</i> that is designed to use pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. So, it uses the representation of the words to undestand the fully meaning of each word in a better performance that the other used techniques becuase it take the semantic meaning of each word by taking advantage of the place of the word and it's contextual location.</li><br/>
+
 </ul>
 <p> &nbsp;&nbsp;Please note that the prompted words are words that exist inside the dataset.</em></p><em>
   
@@ -47,11 +48,12 @@ files.close()</pre>
      &nbsp;&nbsp; scikit-learn <br> 
      &nbsp;&nbsp; regex <br> 
      &nbsp;&nbsp; strings <br> 
-     &nbsp;&nbsp; python-math 
+     &nbsp;&nbsp; python-math <br>
+     &nbsp;&nbsp; python3.x
  <p align ="center">check the requirment.txt file.</p> 
 </li>
 <li> note: if your device is slow you can use <a <a href="https://colab.research.google.com/drive/1LV9h--LiKA3lgzChXQiGgamyakaNhJFy?usp=sharing">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a> to run the code on it. Also, activate the GPU via clicking on the runtime from the toolbar >>> change runtime type >>> Hardware accelerator >>>> GPU.</li> <br>
-<li> Now you're ready to run your code. It's provided with more than one type such as .ipynb extention which is compatible with jupyter notebook & .py extention which is compatible with python file.</li>
-</ul>
+</a> to run the code on it. Also, activate the GPU via clicking on the runtime from the toolbar >>> change runtime type >>> Hardware accelerator >>>> GPU.</li> </ul><br>
+<Strong> Now you're ready to run your code. It's provided with more than one type such as .ipynb extention which is compatible with jupyter notebook & .py extention which is compatible with python file.</Strong>
+
