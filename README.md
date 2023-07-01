@@ -10,11 +10,29 @@
   <br/>
   <li><b><big>BERT<i>(Bidirectional Encoder Representations from Transformers)</i></big></b> is a  pre-trained language model that is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.</li>
 </ul>
-<h2 font_size = 10px;>Dataset:</h2> 
-<p> The daset has been collected using <i> Web scraping</i> </p>
-<p> First of all you need to extract the compressed file "Dataset!"</p>
-        import zipfile as zf
-        files = zf.ZipFile("Arabic_dataset.zip", 'r')
-        files.extractall("Arabic_dataset")
-        files.close()
 <p>Please note that the prompted words are words that exist inside the dataset.</em></p><em>
+  
+<h2 font_size = 10px;>About the used dataset:</h2> 
+<p> The daset has been collected using <i> Web scraping</i> </p>
+
+
+<h2 font_size = 10px;>Requirements:</h2> 
+<ul>
+<li> First of all you need to extract the compressed file "Dataset!"</li>
+<pre align ="left">import zipfile as zf
+files = zf.ZipFile("Arabic_dataset.zip", 'r')
+files.extractall("Arabic_dataset")
+files.close()</pre>
+
+<li> Now you need to install the required libraries:
+      Torch 
+      Transformers
+      pandas
+      numpy
+</li>
+note: if your pc is slow you can use Google Colab <a href="<https://colab.research.google.com/drive/1B6raOPDot8QU22jlQmfNjgNOuaFpxame?usp=sharing>">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a> to run the code on it
+
+
+</ul>
