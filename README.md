@@ -25,10 +25,15 @@ files.extractall("Arabic_dataset")
 files.close()</pre>
 
 <li> Now you need to install the required libraries:<br>
-      &nbsp;&nbsp;Torch <br>
-     &nbsp;&nbsp; Transformers <br>
+     &nbsp;&nbsp; torch <br>
+     &nbsp;&nbsp; transformers <br>
      &nbsp;&nbsp; pandas <br>
-      &nbsp;&nbsp;numpy <br> 
+     &nbsp;&nbsp; numpy <br> 
+     &nbsp;&nbsp; scikit-learn <br> 
+     &nbsp;&nbsp; regex <br> 
+     &nbsp;&nbsp; strings <br> 
+     &nbsp;&nbsp; python-math <br> 
+  
  <p align ="center">check the requirment.txt file.</p> <br>
 </li>
 note: if your device is slow you can use <a <a href="https://colab.research.google.com/drive/1B6raOPDot8QU22jlQmfNjgNOuaFpxame?usp=sharing/edit">
