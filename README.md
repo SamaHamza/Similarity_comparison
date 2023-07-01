@@ -6,9 +6,8 @@
   <br/>
   <li><b><big>TF_IDF<i>(term Frequency Inverse Frequency)</i></big></b> is a mathematicle calculation that finds the importance of each word in the document. </li>
  <b>Term Frequency <i>(TF)</i>  :</b> It represents the frequency of a term within a document relative to the total number of terms in that document. <br/>
- Mathematically it can be represented as follows:<br/>
-<pre> 
- <i>&nbsp;&nbsp;<b>TF</b> = (Number of times term t appears in a document)/(Number of terms in the document)</i> </pre><br/>
+ Mathematically it can be represented as follows:
+<pre> <i>&nbsp;&nbsp;<b>TF</b> = (Number of times term t appears in a document)/(Number of terms in the document)</i> </pre><br/>
  <b>Inverse document frequency <i>(IDF)</i>:</b> It is a measure used in information retrieval and text mining to quantify the importance of a term in a collection of documents.<br/>
 Mathematically it can be represented as follows:<br/>
  <pre>
