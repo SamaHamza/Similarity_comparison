@@ -1,0 +1,8 @@
+torch
+transformers
+pandas
+numpy
+regex ## re
+strings 
+python-math
+scikit-learn
