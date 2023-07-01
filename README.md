@@ -5,6 +5,13 @@
   <li><b><big>Cosine similarity</big></b> is a mathematical calculation that find the similarity between two words or sentences but in this code the similarity has been found between two words only that has been prompted by the user.</li>
   <br/>
   <li><b><big>TF_IDF<i>(term Frequency Inverse Frequency)</i></big></b> is a mathematicle calculation that finds the importance of each word in the document. </li>
+  
+ <b>TF</b> = (Number of times term t appears in a document)/(Number of terms in the document)
+
+ <b>IDF</b> = log(N/n), where, N is the number of documents and n is the number of documents a term t has appeared in.
+
+  <b>TF-IDF</b> = TF*IDF
+  
   <br/>
   <li><b><big>Word Embedding</i></big></b> is a technique used in natural language processing (NLP) to represent individual words as real-valued vectors in a predefined vector space.</li>
   <br/>
