@@ -6,3 +6,4 @@ regex ## re
 strings 
 python-math
 scikit-learn
+python3.x
