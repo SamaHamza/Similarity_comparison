@@ -13,7 +13,9 @@
 <p> &nbsp;&nbsp;Please note that the prompted words are words that exist inside the dataset.</em></p><em>
   
 <h2 font_size = 10px;>About the used dataset:</h2> 
-<p> The daset has been collected using <i> Web scraping</i> </p>
+<p> Dataset is collection of Arabic articles that can be used in different Arabic <b>NLP tasks</b> . The articles were collected using<b>Python scripts</b> written specifically for <b><a href="https://mawdoo3.com/">mawdoo3</a></b> website.
+
+datasets have two columns [Title, article] , contains a total number of 5000 articles. </p>
 
 
 <h2 font_size = 10px;>Requirements:</h2> 
